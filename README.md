@@ -33,3 +33,4 @@ var animation = new Animation();
 animation.startRainbow();
 ```
 
+There's a lot more; will flesh this out later.
