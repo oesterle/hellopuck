@@ -33,4 +33,15 @@ var animation = new Animation();
 animation.startRainbow();
 ```
 
+You can list nearby Pucks like this:
+
+```
+var pucks = new NearbyPucks();
+pucks.find(foundCallback);
+
+var foundCallback = function(names){
+	// do something with found Pucks
+};
+```
+
 There's a lot more; will flesh this out later.
